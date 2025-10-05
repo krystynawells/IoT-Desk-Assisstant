@@ -2,12 +2,6 @@
 
 An IoT project to encourage healthier desk habits — reminding you to drink water, maintain good posture, and monitor air comfort.  
 
-![Prototype Photo](images/prototype.png)  
-*Physical prototype with sensors connected to NodeMCU.*
-
-![Dashboard Demo](images/dashboard.gif)  
-*Adafruit IO dashboard with live sensor data and mode controls.*
-
 ---
 ## Project Gallery
 
