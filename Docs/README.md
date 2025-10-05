@@ -9,24 +9,37 @@ An IoT project to encourage healthier desk habits — reminding you to drink wat
 *Adafruit IO dashboard with live sensor data and mode controls.*
 
 ---
+## Project Gallery
+
+### Physical Prototype
+![Prototype](Docs/prototype.png)
+
+### Live Dashboard (Adafruit IO)
+![Dashboard](Docs/dashboard.gif)
+
+---
 
 ## Overview
 Following the shift to remote work and study, people often spend hours at their desks without breaks.  
 This project uses sensors + MQTT + Adafruit IO to provide real-time feedback on hydration, posture, and air comfort.
+It includes both a physical prototype built with NodeMCU and sensors, and a Python-based simulator, allowing full testing 
+and visualization without hardware.
 
 - **NodeMCU ESP8266** for WiFi + MQTT communication
 - **DHT11 sensor** → Temperature & Humidity  
 - **Moisture sensor** → Detects presence of a water glass  
 - **Ultrasonic distance sensor** → Monitors screen distance  
-- **Adafruit IO** → Dashboard, controls, and alerts  
-
+- **Adafruit IO** → Dashboard, controls, and alerts
+  
+---
 
 ##  Features
--  Real-time data logging to Adafruit IO  
--  Custom “modes” (Focus, Relax, Sleep) that adjust thresholds  
--  Alerts for hydration, screen distance, and air comfort  
--  Simulated + physical prototypes  
-
+- Real-time sensor data streaming to Adafruit IO  
+- Adjustable **Modes** — Focus, Relax, Sleep — that change sensitivity  
+- Smart alerts for hydration, posture, and air comfort  
+- Python simulator for offline testing  
+- Expandable and mobile-notification ready
+  
 ---
 
 ##  Hardware Setup
@@ -38,7 +51,7 @@ This project uses sensors + MQTT + Adafruit IO to provide real-time feedback on 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Clone this repo:
    ```bash
    git clone https://github.com/yourusername/desk-health-assistant.git
@@ -53,3 +66,16 @@ This project uses sensors + MQTT + Adafruit IO to provide real-time feedback on 
     python desk_health_sim.py
 
     Or upload the Arduino code to NodeMCU.
+
+## Future Improvements
+
+- Add mobile notifications via IFTTT
+- Include CO₂ / air quality sensor for better comfort tracking
+- Create a mobile companion app
+- Integrate data logging and analysis over time
+
+
+## Author
+
+Krystyna Wells
+Computer Science student passionate about IoT, automation, and human-centered tech.
