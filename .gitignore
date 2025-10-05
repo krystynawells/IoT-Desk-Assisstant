@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+venv/
+Simulators/py/venv/
+__pycache__/
+*.pyc
+
+# Node/VS Code (if any)
+node_modules/
+.vscode/
+
+# Arduino build outputs
+*.ino.bin
+*.ino.hex
+*.ino.elf
+.build/
+.pio/
+
+# Local credentials – DO NOT COMMIT
+ArduinoCode/_desk_helper/secrets.h
+Firmware/_desk_helper/secrets.h
