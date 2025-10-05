@@ -6,10 +6,10 @@ An IoT project to encourage healthier desk habits — reminding you to drink wat
 ## Project Gallery
 
 ### Physical Prototype
-![Prototype](Docs/prototype.png)
+![Prototype](./prototype.png)
 
 ### Live Dashboard (Adafruit IO)
-![Dashboard](Docs/dashboard.gif)
+![Dashboard demo](./dashboard.gif)
 
 ---
 
@@ -71,5 +71,5 @@ and visualization without hardware.
 
 ## Author
 
-Krystyna Wells
+Krystyna Wells - 
 Computer Science student passionate about IoT, automation, and human-centered tech.
